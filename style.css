@@ -1,0 +1,78 @@
+/* Reset some default styles for consistency */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+  background-color: #2d2d2d;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the header (h1) */
+h1 {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Style the main content container */
+div {
+  background-color: rgb(90, 90, 90);
+  color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  font-size: larger;
+}
+
+/* Style the images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+/* Style the headings (h2) */
+h2 {
+  color: #333;
+}
+
+/* Style the paragraphs (p) */
+p {
+  line-height: 1.5;
+}
+
+/* Style the horizontal rule (hr) */
+hr {
+  border: none;
+  border-top: 2px solid #333;
+  margin: 20px auto;
+}
+
+/* Style the link */
+a {
+  text-decoration: none;
+  color: #0077cc;
+}
+
+/* Style link on hover */
+a:hover {
+  text-decoration: underline;
+}
+
+#first{
+  font-size: larger;
+  color: whitesmoke;
+}
+#last{
+  font-size: larger;
+  color: whitesmoke;
+}
+p{
+  color: white;
+}
